@@ -1,0 +1,17 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        //girisbutonu tasarımı
+
+        <shape android:shape="rectangle">
+
+            <solid android:color="#FF8A65"/>
+            <corners android:radius="100dp"
+                android:bottomLeftRadius="0dp"
+                android:topLeftRadius="0dp" />
+
+            <stroke android:color="@color/black"
+                android:width="7dp"
+                />
+        </shape>
+    </item>
+</selector>
